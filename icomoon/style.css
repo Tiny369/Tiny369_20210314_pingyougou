@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?bberyy');
+  src:  url('fonts/icomoon.eot?bberyy#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bberyy') format('truetype'),
+    url('fonts/icomoon.woff?bberyy') format('woff'),
+    url('fonts/icomoon.svg?bberyy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-headphones:before {
+  content: "\e910";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-connection:before {
+  content: "\e91b";
+}
+.icon-cart:before {
+  content: "\e93a";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-search:before {
+  content: "\e986";
+}
+.icon-zoom-in:before {
+  content: "\e987";
+}
+.icon-zoom-out:before {
+  content: "\e988";
+}
+.icon-arrow-up-left2:before {
+  content: "\ea39";
+}
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
+.icon-ctrl:before {
+  content: "\ea50";
+}
+.icon-ctrl11:before {
+  content: "\ea51";
+}
+.icon-ctrl1:before {
+  content: "\ea52";
+}
+.icon-ctrl2:before {
+  content: "\ea53";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-checkbox-unchecked:before {
+  content: "\ea54";
+}
+.icon-share2:before {
+  content: "\ea82";
+}

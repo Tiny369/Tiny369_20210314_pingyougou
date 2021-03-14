@@ -1,0 +1,417 @@
+
+
+/* main start */
+.main {
+    margin-left: 220px;
+    margin-top: 10px;
+    width: 981px;
+    height: 455px;
+}
+.focus {
+    position: relative;
+    height: 455px;
+    width: 721px;
+    background-color: purple;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: 'icomoon';
+    font-size: 18px;
+    color: white;
+}
+.arrow-l {
+    left: 0;
+}
+.arrow-r {
+    right: 0;
+}
+.arrow-l:hover,
+.arrow-r:hover {
+    background: rgba(0, 0, 0, 0.2);
+   
+}
+.focus .circle{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.current {
+    background-color: #fff;
+}
+.newsflash {
+    width: 251px;
+    height: 455px;
+    /* background-color: skyblue; */
+}
+.news {
+    height: 163px;
+    border: 1px solid #e4e4e4;
+}
+.news-hd {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+.news-hd a {
+    float: right;
+    font-size: 12px;
+    font-family: 'icomoon';
+}
+.news-bd ul {
+    margin-top: 12px;
+}
+.news-bd li {
+    height: 22px;
+}
+.news-bd a {
+    font-size: 14px;
+    padding-left: 16px;
+}
+.lifeservice {
+    height: 208px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+.service_ico {
+    margin: 10px auto;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(../img/icons.png) no-repeat;
+}
+.service_ico_huafei {
+    background-position: -18px -15px;
+}
+.service_ico_jipiao{
+    background-position: -79px -15px;
+}
+.service_ico_dyp{
+    background-position: -142px -15px;
+}
+.service_ico_yx{
+    background-position: -205px -15px;
+}
+.service_ico_cp{
+    background-position: -18px -89px;
+}
+.service_ico_jyk{
+    background-position: -79px -87px;
+}
+.service_ico_jd{
+    background-position: -142px -87px;
+}
+.service_ico_hcp{
+    background-position: -205px -87px;
+}
+.service_ico_zc{
+    background-position: -18px -159px;
+}
+.service_ico_lc{
+    background-position: -79px -159px;
+}
+.service_ico_lpk{
+    background-position: -142px -159px;
+}
+.service_ico_bt{
+    background-position: -205px -159px;
+}
+
+.lifeservice li p {
+    text-align: center;
+}
+.lifeservice_jipiao {
+    position: relative;
+}
+.hot {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg) no-repeat;
+    
+}
+.bargain {
+    margin-top: 5px;
+    width: 251px;
+    height: 75px;
+}
+/* main end */
+
+/* recommend start */
+.recommend {
+    margin-top: 11px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recom-hd {
+    width: 208px;
+    height: 163px;
+    background-color: #5c5251;
+    text-align: center;
+}
+.recom-hd h3 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.recom-hd img {
+    margin: 30px 0 10px 0;
+}
+.recom-bd {
+    padding: 10px 0;
+}
+.recom-bd li {
+    float: left;
+    width: 247px;
+    height: 143px;
+    border-right: 1px solid #dddddd;
+    text-align: center;
+}
+.recom-bd img {
+    transition: all 0.3s;
+}
+.recom-bd img:hover {
+    margin-left: 15px; 
+}
+/* recommend end */
+
+/* like 猜你喜欢模块 start */
+.like {
+    margin-top: 30px;
+}
+.like_hd {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ededed;
+}
+.like_hd_left {
+    font-size: 18px;
+}
+.like_hd_right a {
+    margin-right: 45px;
+}
+.like_hd_right span {
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 15px;
+    width: 18px;
+    height: 18px;
+    background: url(../img/icons.png) no-repeat -419px -110px;
+}
+.like_bd li {
+    float: left;
+    width: 200px;
+    height: 230px;
+    /* background-color: pink; */
+    border-bottom: 1px solid #ededed;
+    text-align: center;
+}
+.like_bd img {
+	/*过渡写到本身上， 谁做动画，给谁加*/
+	transition: all .2s;
+}
+/*我们鼠标经过图片 往右走 8px*/
+.like_bd img:hover {
+    margin-left: 8px;
+}
+.img {
+    width: 160px;
+    height: 141px;
+    margin: 0 auto;
+}
+/* like 猜你喜欢模块 end */
+
+/* 有趣区 start  */
+.funny {
+    margin-top: 30px;
+}
+.funny_hd {
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    /* background-color: pink; */
+    border-bottom: 1px solid #ededed;
+}
+.funny_bd {
+    height: 405px;
+    /* background-color: pink; */
+}
+.funny_bd li {
+    float: left;
+}
+.funny_bd_02 {
+    border-right: 1px solid #ededed;
+}
+/* 有趣区 end  */
+
+
+/* floor 楼层区 start  */
+
+.box-hd {
+    height: 31px;
+    line-height: 31px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 25px;
+}
+.box-hd-left a {
+    font-size: 18px;
+    color: #c81623;
+}
+.box-hd-left a:hover {
+    color: darkorange;
+}
+.box-hd-right {
+    margin-right: 10px;
+}
+.box-hd-right li {
+    float: left;
+}
+.box-hd-right-list i{
+    margin: 0 15px;
+}
+.box-hd-right-list:nth-child(1) a
+{
+    color: red;
+}
+.box-bd {
+    height: 360px;
+}
+.box-bd img {
+	/*过渡写到本身上， 谁做动画，给谁加*/
+	transition: all .2s;
+}
+/*我们鼠标经过图片 往右走 8px*/
+.box-bd img:hover {
+	margin-left: 8px;
+}
+.box-bd li {
+    float: left; 
+    overflow: hidden;
+}
+.box-bd-ul li {
+    height: 360px;
+}
+.w209 {
+    width: 209px;
+}
+.tab-con-list {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.tab-con-list li {
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 10px;
+	text-align: center;
+}
+.w329 {
+    width: 329px;
+    
+}
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.w219_s,
+.w219_x {
+    border-bottom: 1px solid #ccc;
+}
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.w220_s,
+.w220_x {
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* floor 楼层区 end  */
+
+/* 固定电梯导航 start */
+.fixed {
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -690px;
+    width: 80px;
+    /* background-color: pink; */
+    text-align: center;
+}
+.fixed li {
+    height: 30px;
+    line-height: 30px;
+}
+/* 固定电梯导航 end  */
+
+/* 热门抢购 模块 start */
+.Rush_buy {
+    margin-top: 50px;
+}
+.Rush_buy_hd {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    border-bottom: 1px solid #ededed;
+}
+.Rush_buy_bd {
+    height: 290px;
+}
+/* 热门抢购 模块 end */
+
+/* top返回顶部 */
+.fixef_top a{
+    position: fixed;
+    top: 600px;
+    right: 50%;margin-right: -660px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+}
+.fixef_top a:hover {
+    background-color: pink;
+}

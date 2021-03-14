@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/* <!-- header start --> */
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 185px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 14px;
+}
+/* <!-- header end --> */
+
+/* <!-- list_nav start --> */
+.list_nav {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+.sk_list li {
+    float: left;
+}
+.sk_list li a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 30px;
+}
+.sk_con li {
+    float: left;
+}
+.sk_con li:nth-child(2) a {
+    color: #c26162;
+}
+.sk_con li a {
+    font-size: 14px;
+    margin: 0 23px;
+}
+.sk_con li a i {
+    font-family: 'icomoon';
+    font-size: 18px;
+    line-height: 35px;
+}
+/* <!-- list_nav end --> */
+
+/* sk _container start */
+.sk_bd {
+    margin-top: 25px;
+}
+.sk_bd_ul {
+    width: 1220px;
+}
+.sk_bd_li {
+    position: relative;
+    float: left;
+    width: 288px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.sk_bd_li:hover {
+    border: 1px solid #e12228;
+}
+.sk_bd_li h5 {
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 12px;
+}
+.sk_goods_price {
+    padding-left: 12px;
+    margin-top: 3px;
+}
+.sk_goods_price span {
+    font-size: 22px;
+    color: #e60012;
+    font-weight: bold;
+}
+.sk_goods_price del {
+    font-size: 14px;
+    color: #a4a4a4;
+    font-weight: bold;
+}
+.sk_goods_progress {
+    padding-left: 12px;
+    margin-top: 6px;
+}
+.sk_goods_progress ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+.sk_goods_progress li {
+  
+    width: 132px;
+    height: 10px;
+    border: 1px solid #e12228;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.sk_goods_progress li i {
+    display: block;
+    width: 87%;
+    height: 10px;
+    background-color: #ed282e;
+}
+.sk_goods_progress em {
+    color:#ed282e ;
+}
+.sk_goods_buy {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #b1191a;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+/* sk _container end */
+
+/* page start */
+.page {
+    margin-top: 20px;
+    text-align: center;
+}
+.page_num a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+}
+.page_num a:nth-child(3) {
+    border: 1px solid transparent;
+    color: red;
+}
+.page_num a:nth-child(1),
+.page_num a:nth-child(9) {
+    width: 86px;
+    height: 36px;
+}
+.page_skip {
+    display: inline-block;
+}
+.page_skip input {
+    width: 56px;
+    height: 36px;
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    transition: all 0.5s;
+}
+.page_skip input:focus {
+    width: 86px;
+    border: 1px solid skyblue;
+}
+.page_skip button {
+    width: 56px;
+    height: 36px;
+    background-color:white ;
+    border: 1px solid #CCCCCC;
+}
+/* page end */
+
+/* top返回顶部 */
+.fixef_top a:hover {
+    background-color: pink;
+}
+.fixef_top a {
+    position: fixed;
+    top: 600px;
+    right: 50%;
+    margin-right: -660px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+}

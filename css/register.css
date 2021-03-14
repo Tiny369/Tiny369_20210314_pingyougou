@@ -1,0 +1,162 @@
+/* 初始化 */
+em,
+i {
+    font-style: normal;
+}
+li {
+    list-style: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.w {
+    width: 1500px;
+    margin: 0 auto;
+}
+input,
+button {
+    outline: none;
+}
+
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+.header_logo {
+   padding-top: 20px;
+}
+.registerarea {
+    margin-top: 20px;
+    height: 520px;
+    border: 1px solid #ccc;
+}
+.registerarea h3 {
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    padding: 0 10px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+}
+.registerarea h3 span {
+    float: right;
+    font-size: 14px;
+}
+.registerarea h3 em {
+
+    color: #b1191a;
+}
+.registerarea_from {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+    /* background-color: pink; */
+}
+.registerarea_from li {
+    margin-bottom: 20px;
+}
+.registerarea_from label{
+    display: inline-block;
+    width: 85px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+    vertical-align: middle;
+}
+.registerarea_from input {
+    width: 240px;
+    height: 34px;
+    border: 1px solid #ccc;  
+}
+.registerarea_from_li span {
+    color:#df3033;
+}
+.error {
+    display: inline-block;
+    margin-top: -5px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.success {
+    display: inline-block;
+    margin-top: -5px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/success.png) no-repeat;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.registerarea_from_li_1 {
+    color: #ccc;
+}
+.ruo,
+.zhong,
+.qiang {
+    display: inline-block;
+    width: 34px;
+    height: 15px;
+    line-height: 15px;
+    color: #fff;
+    text-align: center;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.registerarea_from_li_1 {
+    padding-left: 168px;
+}
+.registerarea_from_checkbox {
+    margin-top: 35px;
+    padding-left: 90px;
+}
+.registerarea_from_checkbox input {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+.registerarea_from_checkbox a {
+    color: #1ba1e6;
+}
+.Finish_Registration {
+    margin-top: 30px;
+    padding-left: 110px;
+}
+.Finish_Registration a{
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.footer  {
+    text-align: center;
+    margin-top: 15px;
+}
+.links span {
+    margin: 0 15px;
+}
+.copy {
+    margin-top: 10px;
+}
+.copy p {
+    height: 20px;
+    line-height: 20px;
+}
